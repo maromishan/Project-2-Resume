@@ -1,5 +1,5 @@
 * {
-  padding:0;
+  padding:10px;
   margin:0;
   font-family: 'Roboto', sans-serif;
 }
@@ -22,15 +22,16 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
-  color: #999999;
-  line-height: 29px;
-  padding: 10px;
+  font-size: 30px;
+  color: #000;
+  line-height: 25px;
+  padding: 12px;
+  margin-top: 15px;
 }
 
 h3 {
   font-style: italic;
-  font-size: 20px;
+  font-size: 30px;
   color: #000000;
   line-height: 22px;
 }
@@ -81,7 +82,7 @@ a {
 
 .welcome-message {
   font-style: italic;
-  font-size: 18px;
+  font-size: 30px;
   color: #F3F3F3;
   line-height: 28px;
 }
@@ -105,7 +106,7 @@ a {
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #CCCCCC;
   padding-bottom: 10px;
   clear:both;
 }
@@ -141,13 +142,16 @@ ul {
 
 .biopic {
   float: left;
+  margin-right: 30px;
   padding: 10px;
-  width: 200px;
-  display: none;
+  width: 300px;
+  height: 380px;
+  display:5one;
 }
 
 img {
   padding: 10px;
+  margin-top: 20px;
 }
 
 /* Bar chart stuff */
@@ -204,7 +208,7 @@ span {
 #mapDiv {
   height: 400px;
   width: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
 }
 
 @media only screen and (min-width: 750px) {
